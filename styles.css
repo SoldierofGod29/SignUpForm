@@ -1,4 +1,8 @@
 /*styles for sign up form index page*/
+@font-face {
+        font-family: NorseBold;
+        src: url(Norse-Bold.otf);
+    }
 
 * {
     margin: 0;
@@ -11,29 +15,52 @@ body {
 }
 
 .image-logo-container {
-    width: 500px;
-    position: relative;
+    width: 525px;
 }
 
 .image {
-    position: absolute;
     width: fit-content;
+    position: absolute;
     height: 788px;
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    top: 14rem;
     background: black;
     opacity: 0.6;
+    width: 525px;
+    height: 150px;
+}
+
+.logo img {
+    width: 120px;
+    height: 140px;
+}
+
+.logo span {
+    font-family: NorseBold;
+    color: white;
+    font-size: 120px;
 }
 
 .credit {
     position: absolute;
+    bottom: 1rem;
+    left: 9rem;
+    color: white;
+}
+
+.credit a {
+    color: white;
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
     width: 600px;
-    margin-left:100px;
+    margin-left:80px;
 }
