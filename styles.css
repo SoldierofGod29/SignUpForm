@@ -1,0 +1,39 @@
+/*styles for sign up form index page*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.image-logo-container {
+    width: 500px;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    width: fit-content;
+    height: 788px;
+}
+
+.logo {
+    position: absolute;
+    background: black;
+    opacity: 0.6;
+}
+
+.credit {
+    position: absolute;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left:100px;
+}
