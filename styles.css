@@ -66,6 +66,29 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     flex: 95%;
-    padding-left:80px;
+    margin-left:50px;
+    margin-right: 500px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+
+.header span {
+    font-weight: bold;
+    
+}
+
+.main-form {
+    display: flex;
+    flex-basis: 40%;
+}
+
+.footer {
+    display: flex;
+    flex-basis: 20%;
 }
