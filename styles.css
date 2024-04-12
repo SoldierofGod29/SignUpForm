@@ -15,36 +15,41 @@ body {
 }
 
 .image-logo-container {
-    width: 525px;
+    flex-basis: 5%;
 }
 
 .image {
     width: fit-content;
-    position: absolute;
     height: 788px;
 }
 
-.logo {
+.logo-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 14rem;
+    top: 11rem;
     background: black;
     opacity: 0.6;
     width: 525px;
-    height: 150px;
+    height: 180px;
 }
 
-.logo img {
+.logo {
     width: 120px;
-    height: 140px;
+    height: 170px;
+    position: absolute;
+    top: 11.4rem;
+    left: 6rem;
 }
 
-.logo span {
+.company-name {
     font-family: NorseBold;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 120px;
+    position: absolute;
+    top: 13rem;
+    left: 14rem;
 }
 
 .credit {
@@ -61,6 +66,6 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    margin-left:80px;
+    flex: 95%;
+    padding-left:80px;
 }
