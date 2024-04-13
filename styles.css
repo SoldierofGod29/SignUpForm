@@ -15,21 +15,21 @@ body {
     height: 100vh;
 }
 
-.image {
-    width: fit-content;
-    height: 788px;
+.image-logo-container {
+    flex-basis: 42%;
+    background-image: url(../SignUpForm/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 .logo-banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 11rem;
-    background: black;
-    opacity: 0.6;
-    width: 525px;
+    background: rgba(0, 0, 0, 0.6);
+    width: inherit;
     height: 180px;
+    margin-top: 11rem;
 }
 
 .logo {
@@ -50,10 +50,9 @@ body {
 }
 
 .credit {
-    position: absolute;
-    bottom: 1rem;
-    left: 9rem;
     color: white;
+    margin-top: 24rem;
+    margin-left: 8rem;
 }
 
 .credit a {
@@ -64,6 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-basis: 58%;
     margin-left:100px;
     margin-right: 250px;
 }
