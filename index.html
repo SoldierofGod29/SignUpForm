@@ -10,8 +10,10 @@
         <img class="image" src="../SignUpForm/halie-west-25xggax4bSA-unsplash.jpg">
         
         <div class="logo-banner"></div>
+
         <img class="logo" src="../SignUpForm/odin-lined.png">
         <span class="company-name">Odin</span>
+
         <div class="credit">
             Photo by 
             <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
@@ -24,46 +26,54 @@
         </div>
     </div>
 
-    <div class="main-container">
+    <div class="form-container">
         <div class="header">
-            <span>
+            <span class="header-top-span">
                 This is not a real online service! You know you need
                 something like this in your life to help you realize
                 your deepest dreams. Sign up <i>now</i> to get started.
             </span>
-            <span>
+            <span class="header-bottom-span">
                 You <i>know</i>  you want to.
             </span>
         </div>
         <form action="" method="post" class="main-form">
             <h3>Let's do this!</h3>
-            <div class="name">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname"/>
-                
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname"/>
+            <div class="name-section">
+                <div class="fname">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John"/>
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Smith"/>
+                </div>
             </div>
-            <div class="contact">
-                <label for="email">E-Mail</label>
-                <input type="email" id="email" name="email"/>
-
-                <label for="phonum">Phone Number</label>
-                <input type="text" id="phonum" name="phonenumber"/>
+            <div class="contact-section">
+                <div class="email">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" placeholder="johnsmith@email.com"/>
+                </div>
+                <div class="phonum">
+                    <label for="phonum">Phone Number</label>
+                    <input type="text" id="phonum" name="phonenumber" placeholder="123-456-7890"/>
+                </div>
             </div>
-            <div class="password">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password"/>
-
-                <label for="conpassword">Confirm Password</label>
-                <input type="password" id="conpassword" name="confirmpassword"/>
+            <div class="password-section">
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"/>
+                </div>
+                <div class="conpassword">
+                    <label for="conpassword">Confirm Password</label>
+                    <input type="password" id="conpassword" name="confirmpassword"/>
+                </div>
             </div>
         </form> 
         <div class="footer">
             <button>Create Account</button>
-            <span>Already have an account? <a>Log in</a></span>
+            <span>Already have an account? <a href="#fname">Log in</a></span>
         </div>  
     </div>
-     
 </body>
 </html>
